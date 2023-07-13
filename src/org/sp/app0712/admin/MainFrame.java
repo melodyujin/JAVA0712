@@ -90,7 +90,7 @@ public class MainFrame extends JFrame implements ActionListener{
 		
 	}
 	
-	//페이지 보잉고, 감추고 처리를 효율적으로 하는 메서드 정의
+	//페이지 보이고, 감추고 처리를 효율적으로 하는 메서드 정의
 	//index값은 보여주고 싶은 페이지의 index를 넘기면 됨..버튼의 순번과 일치
 	public void showHide(int index) {
 		for(int i=0;i<pages.length;i++) {
